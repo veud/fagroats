@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fagroats</title>
+	<link rel="stylesheet" href="css/main.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+<div class="m-menu">
+	<i class="fas fa-times close-menu"></i>
+	<ul>
+	<li><a href="#main_page">Главная</a></li>
+	<li><a href="#services_page">Услуги</a></li>
+	<li><a href="#catalog_page">Каталог</a></li>
+	<li><a href="#advantages_page">Преимущества</a></li>
+	<li><a href="#commodities_page">Товары</a></li>
+	<li><a href="#contacts_page">Контакты</a></li>		
+	</ul>
+	<div class="header_submit adaptive">
+		<input type="submit" value="Обратный звонок">
+	</div>
+</div>
+
+<div class="overlay js-overlay-campaign">
+		<div class="popup js-popup-campaign">
+			<h3>Бесплатная консультация</h3>
+			<input type="text" name="name" placeholder="Имя">
+			<input type="text" name="phone" placeholder="Телефон">
+			<input type="text" name="email" placeholder="Почта">
+			<button type="submit" class="popup__button">
+				Отправить
+			</button>
+			<div class='result'></div>
+			<div class="close-popup js-close-campaign"></div>
+		</div>
+</div>
+	<header id="main_page">
+		<div class="header_top_side">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-2 col-sm-4 col-xs-3 col-3">
+						<div class="header_logo">
+							<div class="header_image">
+								<img src="img/rice-bowl.svg" alt="header_logo" width="30" height="30">
+							</div>
+							<div class="header_desc">
+								<h5 class="header_desc__title">fa<span>groats</span></h5>
+							</div>
+  						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-5 col-xs-6 col-6">
+                   		<div class="header_mail">
+                    		<a href="mailto:fagroats@gmail.com" class="header_mail__link">
+                    			fagroats@gmail.com
+                    		</a>
+                    		<p class="header_mail__text">
+                    			Основная почта
+                    		</p>               	
+                    	</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-1 col-xs-1 col-1">
+						<div class="header_phone">
+							<span class="header_phone__number">
+								<a href="tell:+79898890908">
+									+7 (989) 889-09-08									
+								</a>
+							</span>
+							<span class="header_phone__number">
+								<a href="tell:+79888890809">
+									+7 (988) 889-08-09									
+								</a>
+							</span>				
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-2">
+						<div class="m-menu-link">
+							<a href="#">
+                      			<i class="fas fa-bars"></i>
+                    		</a>								
+						</div>						
+						<div class="header_submit">
+							<input type="submit" value="Обратный звонок">
+						</div>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<ul class="header_menu">
+							<li><a href="#main_page">Главная</a></li>
+							<li><a href="#services_page">Услуги</a></li>
+							<li><a href="#catalog_page">Каталог</a></li>
+							<li><a href="#advantages_page">Преимущества</a></li>
+							<li><a href="#commodities_page">Товары</a></li>
+							<li><a href="#contacts_page">Контакты</a></li>
+						</ul>
+					</div>
+				</div>					
+				</div>
+			</div>
+ 			<div class="header_bottom_side">
+ 				<div class="container">
+ 					<div class="row">
+ 						<div class="col-12">
+ 							<div class="header_info">
+ 								<h1 class="header_info__title">
+ 									высокое качество и<br>
+									быстрая доставка
+ 								</h1>
+ 								<p class="header_info__text">
+ 									Огромное количество ассортиментов товара<br>
+ 									на любой вкус и цвет.Готовы найти<br>
+ 									абсолютно редкий сорт, который Вы<br>
+ 									захотите приобрести
+ 								</p>
+ 							</div>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+	</header>
+	<section class="services" id="services_page">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="services_heading">
+						<h3 class="services_heading__title">
+							Услуги
+						</h3>
+						<p class="services_heading__text">
+							Наша компания предоставляет<br>
+						    небольшой список услуг
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-12">
+					<div class="services_items">
+						<div class="services_items__image">
+							<img src="img/agriculture.svg" alt="agriculture" width="50" height="50">
+						</div>
+						<h6 class="services_items__title">
+							Подбор необходимого<br>
+							ассортимента
+						</h6>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">	
+					<div class="services_items">
+						<div class="services_items__image">
+							<img src="img/rice.svg" alt="peas" width="50" height="50">
+						</div>
+						<h6 class="services_items__title">
+							Полная фасовка<br>
+							продуктов
+					    </h6>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="services_items">
+						<div class="services_items__image">
+							<img src="img/box.svg" alt="box" width="50" height="50">
+						</div>
+						<h6 class="services_items__title">
+							Упаковка товаров<br>
+							в паллеты
+						</h6>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="services_items">
+						<div class="services_items__image">
+							<img src="img/truck.svg" alt="truck" width="50" height="50">
+						</div>
+						<h6 class="services_items__title">
+							Доставка в любое<br>
+							место
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="catalog" id="catalog_page">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="catalog_heading">
+						<h3 class="catalog_heading__title">Основной Каталог</h3>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="swiper-container container">
+    		<div class="swiper-wrapper">
+      			<div class="swiper-slide">
+					<div class="catalog_item">
+						<div class="catalog_item__image">
+							<img src="img/buckwheat.jpg" alt="buckwheat">
+						</div>
+						<p class="catalog_item__text">
+							Продаем только от 20кг<br>
+							(цены могут меняться)
+						</p>
+						<h2 class="catalog_item__title">Гречка</h2>
+						<span class="catalog_item__price">от 38 р./кг</span><br>
+						<button type="button" class="catalog_item__button">Подробнее</button>
+					</div>      	
+      			</div>
+      			<div class="swiper-slide">
+					<div class="catalog_item">
+						<div class="catalog_item__image">
+							<img src="img/wild_rice.jpg" alt="wildrice">
+						</div>
+						<p class="catalog_item__text">
+							Продаем только от 20кг<br>
+							(цены могут меняться)
+						</p>
+						<h2 class="catalog_item__title">Дикий рис</h2>
+						<span class="catalog_item__price">от 220 р./кг</span><br>
+						<button type="button" class="catalog_item__button">Подробнее</button>
+					</div>      	
+      			</div>
+      			<div class="swiper-slide">
+					<div class="catalog_item">
+						<div class="catalog_item__image">
+							<img src="img/corn_grits.jpg" alt="corngrits">
+						</div>
+						<p class="catalog_item__text">
+							Продаем только от 20кг<br>
+							(цены могут меняться)
+						</p>
+						<h2 class="catalog_item__title">Кукурзная крупа</h2>
+						<span class="catalog_item__price">от 30 р./кг</span><br>
+						<button type="button" class="catalog_item__button">Подробнее</button>
+					</div>      	
+      			</div>
+      			<div class="swiper-slide">
+					<div class="catalog_item">
+						<div class="catalog_item__image">
+							<img src="img/oatmeal.jpg" alt="oatmeal">
+						</div>
+						<p class="catalog_item__text">
+							Продаем только от 20кг<br>
+							(цены могут меняться)
+						</p>
+						<h2 class="catalog_item__title">Овсянка</h2>
+						<span class="catalog_item__price">от 150 р./кг</span><br>
+						<button type="button" class="catalog_item__button">Подробнее</button>
+					</div>      	
+      			</div>
+      			<div class="swiper-slide">
+					<div class="catalog_item">
+						<div class="catalog_item__image">
+							<img src="img/rice.jpg" alt="rice">
+						</div>
+						<p class="catalog_item__text">
+							Продаем только от 20кг<br>
+							(цены могут меняться)
+						</p>
+						<h2 class="catalog_item__title">Рис</h2>
+						<span class="catalog_item__price">от 30 р./кг</span><br>
+						<button type="button" class="catalog_item__button">Подробнее</button>
+					</div>      	
+      			</div>
+      			<div class="swiper-slide">
+					<div class="catalog_item">
+						<div class="catalog_item__image">
+							<img src="img/pearl_barley.jpg" alt="pearlbarley">
+						</div>
+						<p class="catalog_item__text">
+							Продаем только от 20кг<br>
+							(цены могут меняться)
+						</p>
+						<h2 class="catalog_item__title">Перловая крупа</h2>
+						<span class="catalog_item__price">от 25 р./кг</span><br>
+						<button type="button" class="catalog_item__button">Подробнее</button>
+					</div>      	
+      			</div>
+    		</div>
+    			<div class="swiper-button-next"></div>
+    			<div class="swiper-button-prev"></div>
+		</div>
+	</section>
+	<section class="advantages" id="advantages_page">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="advantages_heading">
+						<h3 class="advantages_heading__title">преимущества</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-12">
+					<div class="advantages_item">
+						<div class="advantages_item__image">
+							<img src="img/medal.svg" alt="medal" width="35" height="35">
+						</div>
+						<h3 class="advantages_item__title">
+							Высокое качество
+					    </h3>
+						<p class="advantages_item__text">
+							Постоянные наблюдения, успешно<br>
+							пройденные проверки, команда<br>
+							профессионалов - залог<br>
+							высокого качества у нас
+					    </p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12">
+					<div class="advantages_item">
+						<div class="advantages_item__image">
+							<img src="img/warehouse.svg" alt="warehouse" width="35" height="35">
+						</div>
+						<h3 class="advantages_item__title">
+							Постоянный ассортимент
+						</h3>
+						<p class="advantages_item__text">
+							У нас всегда есть в наличие<br>
+							весь ассортимент, из-за<br>                            
+							огромного потока клиентов<br>
+							и объёмных заказов<br>
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-12">
+					<div class="advantages_item">
+						<div class="advantages_item__image">
+							<img src="img/low-price.svg" alt="lowprice" width="35" height="35">
+						</div>
+						<h3 class="advantages_item__title">
+							Низкая цена
+						</h3>
+						<p class="advantages_item__text">
+							В отличие от многих наших<br>
+							конкурентов, мы имеем<br>
+							очень низкую цену<br>
+							на нашу продукцию
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="commodities" id="commodities_page">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="commodities_heading">
+						<h3 class="commodities_heading__title">топ продаж</h3>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-12">
+					<div class="commodities_items">
+						<div class="commodities_items__image">
+							<img src="img/corn_grits.jpg" alt="first_order">
+						</div>
+						<p class="commodities_items__title">
+							Кукурузная крупа<br>
+							(от 50кг)
+						</p>
+						<span class="commodities_items__t_price">1299 &#8381;</span>
+						<span class="commodities_items__l_price">1500 &#8381;</span>
+							<button type="button" class="commodities_items__button">Купить</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="commodities_items">
+						<div class="commodities_items__image">
+							<img src="img/rice.jpg" alt="rice">
+						</div>
+						<p class="commodities_items__title">
+							Рис<br>
+							(от 85кг)
+						</p>
+						<span class="commodities_items__t_price">2279 &#8381;</span>
+						<span class="commodities_items__l_price">2550 &#8381;</span>
+							<button type="button" class="commodities_items__button">Купить</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="commodities_items">
+						<div class="commodities_items__image">
+							<img src="img/pearl_barley.jpg" alt="pearlbarley">
+						</div>
+						<p class="commodities_items__title">
+							Перловая крупа<br>
+							(от 65кг)
+						</p>
+						<span class="commodities_items__t_price">1399 &#8381;</span>
+						<span class="commodities_items__l_price">1625 &#8381;</span>
+							<button type="button" class="commodities_items__button">Купить</button>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="commodities_items">
+						<div class="commodities_items__image">
+							<img src="img/buckwheat.jpg" alt="buckwheat">
+						</div>
+						<p class="commodities_items__title">
+							Гречка<br>
+							(от 89кг)
+						</p>
+						<span class="commodities_items__t_price">2989 &#8381;</span>
+						<span class="commodities_items__l_price">3382 &#8381;</span>
+							<button type="button" class="commodities_items__button">Купить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A836d2e7d4336fe3b1020931d7db20a9e6c304c2eef883eab584d9c7d87153c69&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+	<footer id="contacts_page">
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					<div class="footer_desc">
+						<h5 class="footer_desc__logo">fa<span>groats</span></h5>	
+                   		<div class="footer_desc__mail">
+                    		<a href="mailto:fagroats@gmail.com">
+                    			fagroats@gmail.com
+                    		</a>
+                    		<p>
+                    			Основная почта
+                    		</p>               	
+                    	</div>		
+  					</div>
+				</div>
+				<div class="col-6">
+					<div class="footer_contacts">
+						<span class="footer_contacts__number">
+							<a href="tell:+79898890908">
+								+7 (989) 889-09-08									
+							</a>
+						</span>
+						<div class="footer_contacts__time_table">
+							<p>с пн - пт (09:00 - 19:00)</p>
+							<p>с сб - вс (11:00 - 17:00)</p>
+						</div>		
+					</div>					
+				</div>
+				<div class="col-md-12">
+  					<div class="footer_copyright">
+  						Fagroats &copy; 2019
+  					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script
+  		src="https://code.jquery.com/jquery-3.4.1.js"
+  		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  		crossorigin="anonymous">
+  	</script>
+  	<script src="js/jquery.maskedinput.js"></script>
+  	<script src="js/swiper.min.js"></script>
+  	<script src="https://kit.fontawesome.com/c51b61aca4.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
